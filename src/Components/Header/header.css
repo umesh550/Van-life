@@ -1,0 +1,44 @@
+/* header.css */
+:root {
+  --primary-color: #4d4d4d;
+  --secondary-color: #ff8c38;
+  --hover-color: #ffae66;
+}
+
+.header {
+  display: flex;
+  padding: 1.5rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}

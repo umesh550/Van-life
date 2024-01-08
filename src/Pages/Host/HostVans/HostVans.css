@@ -1,0 +1,69 @@
+/* Styles for the title of listed vans */
+.host__vans-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Styles for the container of listed vans */
+.host__vans-list {
+  padding: 0 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styles for the links wrapping individual vans */
+.host__van-link-wrapper {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.host__van-link-wrapper:hover {
+  color: #007bff;
+}
+
+/* Styles for individual van containers */
+.host__van-single {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.host__van-single:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the images inside individual van containers */
+.host__van-single > img {
+  height: 90px;
+  border-radius: 5px;
+  margin-right: 17px;
+  object-fit: cover;
+}
+
+/* Styles for the information (h3) inside individual van containers */
+.host__van-info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-block: 10px;
+  color: #333;
+}
+
+/* Styles for the price inside individual van containers */
+.host__van-info p {
+  font-size: 16px;
+  color: #007bff;
+  margin: 0;
+}
+
+/* Loading message styles */
+:host__vans-list h2 {
+  font-size: 20px;
+  color: #333;
+}
