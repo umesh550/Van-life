@@ -1,8 +1,7 @@
 # VanLife Project
 
 ## Introduction
-
-VanLife is a React web application that caters to travel enthusiasts, offering information about various vans suitable for road trips. It provides features for users to explore different van options, learn about hosting their vans, and access various pages such as the dashboard, income reports, reviews, and more.
+VanLife is a React web application designed to provide users with information about vans for travel and road trips. It includes features for users to explore different van options, learn about hosting their vans, and access various pages such as the dashboard, income reports, reviews, and more.This project was developed as part of the Scrimba Advanced React course.
 
 ## Features
 
