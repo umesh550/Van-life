@@ -28,10 +28,5 @@ The project is organized into several components:
 - **VanDetails:** Shows detailed information about a specific van.
 - **HostLayout:** Offers a layout specifically designed for the hosting section, including navigation links and an outlet for content.
 
-## Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/vanlife-app.git
 
